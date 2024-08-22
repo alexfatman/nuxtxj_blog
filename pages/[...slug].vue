@@ -3,6 +3,7 @@ import { convertDate } from '../utils'
 </script>
 
 <template>
+     <meta property="tg:site_verification" content="g7j8/rPFXfhyrq5q0QQV7EsYWv4=">
   <main
     class="relative mx-auto max-w-prose overflow-hidden bg-white py-16 px-4 sm:px-6 lg:px-8"
   >
