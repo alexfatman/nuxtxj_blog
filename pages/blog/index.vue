@@ -8,6 +8,16 @@ const qc = await queryContent("blog")
   .where({ author })
   .sort({ _file: -1, $numeric: true })
   .find();
+
+  useHead({
+  title: 'My Page',
+  meta: [
+    {
+      property: 'tg:site_verification',
+      content: "g7j8/rPFXfhyrq5q0QQV7EsYWv4=",
+    },
+  ],
+})
 </script>
 
 <template>
