@@ -9,12 +9,16 @@ const qc = await queryContent("blog")
   .sort({ _file: -1, $numeric: true })
   .find();
 
-  useHead({
+useHead({
   title: 'My Page',
   meta: [
     {
       property: 'tg:site_verification',
       content: "g7j8/rPFXfhyrq5q0QQV7EsYWv4=",
+    },
+      {
+      property: 'telegram:channel',
+      content: "@aleksandr_kirop",
     },
   ],
 })
