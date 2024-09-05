@@ -45,7 +45,7 @@ useHead({
       <p class="my-4 text-gray-500">
         {{ doc.author }}, {{ convertDate(doc.date) }}
       </p>
-      <p><img :id="image-title" :src="`${doc.imgurl}`" :alt="`${doc.title}`"></p>
+      <p><img :id="titimage" :src="`${doc.imgurl}`" :alt="`${doc.title}`"></p>
       <div class="prose prose-lg first-letter:text-3xl first-letter:text-blue-600">
         <ContentRenderer :value="doc" />
       </div>
